@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post a New Tuit</title>
+    <style>
+        img {
+            width: 48px;
+            height: 48px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Back link to the navigation screen -->
+    <a href="navigation.html">Back</a>
+    
+    <!-- Tuiter and Tuit headers -->
+    <h1>Tuiter</h1>
+    <h2>Tuit</h2>
+
+    <!-- Account owner image -->
+    <img src="assets/avatar.svg" alt="Account Owner Image">
+
+    <!-- Textarea for new tuits -->
+    <textarea placeholder="What's happening?" rows="3" cols="50"></textarea><br>
+
+    <!-- Dropdown for reply options -->
+    <select>
+        <option value="EVERYONE" selected>Everyone can reply</option>
+        <option value="FOLLOWING">People you follow</option>
+        <option value="MENTIONED">Only people you mention</option>
+    </select><br>
+
+    <!-- Buttons for uploading image and creating a new tuit -->
+    <button type="button">Upload Image</button>
+    <button type="button">Tuit</button>
+</body>
+</html>
